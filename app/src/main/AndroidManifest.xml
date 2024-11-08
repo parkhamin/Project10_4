@@ -21,6 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".AddActivity"
+            android:exported="true" />
+
+        <activity android:name=".SubtractActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
